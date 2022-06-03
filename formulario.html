@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="hsj.php" method="post">
+      <label for="name">Nome</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        maxlength="15"
+        required
+        autocomplete="additional-name"
+      />
+    </form>
+    <br /><br />
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" id="email" required autocomplete="email" />
+    <label for="exemplo">exemplo</label>
+    <input
+      type="email"
+      id="exemplo"
+      name="email"
+      value="exemple@hotmail.com"
+      readonly
+    />
+    <br /><br />
+    <label for="telefone">telefone</label>
+    <input type="tel" name="tel" id="telefone" />
+    <br /><br />
+    <label for="curriculo">curriculo</label>
+    <input type="file" name="file" id="curriculo" />
+    <br /><br />
+    <div style="float: left">
+      <input type="submit" id="enviar" name="enviar" required />
+    </div>
+    <label for="mensagem">mensagem:</label>
+    <textarea
+      name=""
+      id=""
+      cols="30"
+      rows="5"
+      minlength="2"
+      maxlength="200"
+      placeholder="digite uma mensagem aqui"
+      required
+      autocomplete
+    ></textarea>
+  </body>
+</html>
