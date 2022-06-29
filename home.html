@@ -18,14 +18,16 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <title>Espheraa</title>
+    <link rel="script" href="/new.js">
+    <title>Game Mania</title>
+    
   </head>
   <body>
     <!-----------cabeçalho e menu--------------------->
-    <header>
+    <header id="cab">
       <nav style="height: 100px;" class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div style="background-color: #3586ff; height: 60px;" class="container-fluid">
-          <a class="navbar-brand" href="/home.html">Espheraa</a>
+        <div style="background-color: #570083; height: 60px;" class="container-fluid">
+          <a class="navbar-brand" href="/home.html">Game Mania</a>
           <img id="iconehome" src="/image/Preto Dourado Branco Música Studio Logo.png" alt="">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,7 +35,7 @@
           <div style="top: 80px; position:absolute;" class="collapse navbar-collapse" id="navbarNavDarkDropdown">
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
-                <a style="color: black; text-transform: uppercase; font-weight: bold;" class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a style="color: rgb(255, 255, 255); text-transform: uppercase; font-weight: bold;" class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Notebooks
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -47,7 +49,7 @@
           <div style="top: 80px; position:absolute; left: 150px;" class="collapse navbar-collapse" id="navbarNavDarkDropdown">
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
-                <a style="color: black; text-transform: uppercase; font-weight: bold;" class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a style="color: rgb(255, 255, 255); text-transform: uppercase; font-weight: bold;" class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   cadastro
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -113,7 +115,7 @@
       </div>
     </section>
 <!------------------------------------->
-<h1 style="position: relative; left: 550px; top: -150px; font-style: italic; ">lançamentos da semana!</h1>
+<div id="textmy"><h1  style="position: relative; left: 550px; top: -150px; font-style: italic; ">lançamentos da semana!</h1></div>
 <p style="position: relative; left: 640px; top: -150px; font-style: italic; ">todo semana jogos novos na loja</p> 
 <div id="textcaixa">
 <div>
@@ -133,8 +135,8 @@
     <!---------------------Itens de venda 1------------------------------------------->
     <div class="produtos">
       <figure id="prod1">
-        <figcaption>&Omega; &nbsp;ender lilies</figcaption>
-        <img src="/image/header.jpg" alt="" />
+        <a href="/videolili.html"><figcaption>&Omega; &nbsp;ender lilies</figcaption>
+        <img src="/image/header.jpg" alt="" /></a>
       </figure>
       <figure id="prod2">
         <figcaption>&Omega; &nbsp;Disco Elysium</figcaption>
@@ -284,7 +286,11 @@
     ></script>
     <script
       nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"  
     ></script>
+    
   </body>
+  
+
+  
 </html>
